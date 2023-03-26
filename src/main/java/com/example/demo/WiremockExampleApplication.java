@@ -19,6 +19,8 @@ public class WiremockExampleApplication {
 	
 	 WireMockServer mWireMockServer;
 
+
+
    	@Bean
     public WireMockServer setup() {
         mWireMockServer = new WireMockServer(8081);
