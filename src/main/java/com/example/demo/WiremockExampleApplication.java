@@ -28,6 +28,8 @@ public class WiremockExampleApplication {
     }
     
     public void stubTest() {
+
+
     	mWireMockServer.stubFor(WireMock.get("/test")
     			// .withHeader(HttpHeaders.ACCEPT,
                         // WireMock.equalTo(MediaType.APPLICATION_JSON_VALUE))
